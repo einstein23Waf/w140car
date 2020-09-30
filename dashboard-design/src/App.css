@@ -1,5 +1,15 @@
+.Body {
+  height: auto;
+  background-color: brown;
+  padding: 30px;
+}
+
+
 .App {
   /* text-align: center; */
+  background-color: #61dafb;
+  padding: 30px;
+  
 }
 
 .App-logo {
@@ -15,7 +25,7 @@
 
 .App-header {
   background-color: #ffffcc;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   /* align-items: center;
@@ -28,6 +38,13 @@
   color: #61dafb;
 }
 
+Button {
+  width: 100px;
+}
+
+.Card {
+  border-radius: 10px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
