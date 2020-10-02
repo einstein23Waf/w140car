@@ -1,9 +1,12 @@
 .Body {
   height: auto;
-  background-color: brown;
+  background-color: #EFC6B5;
   padding: 30px;
 }
 
+.Lower-column {
+  padding-top: 20px;
+}
 
 .App {
   /* text-align: center; */
@@ -38,13 +41,26 @@
   color: #61dafb;
 }
 
-Button {
-  width: 100px;
-}
-
 .Card {
   border-radius: 10px;
 }
+
+.Container {
+  padding-top: 100px;
+}
+
+.li-item {
+  padding: 5px;
+  
+}
+
+.time {
+  
+  position: relative;
+  margin-left: 150px;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
