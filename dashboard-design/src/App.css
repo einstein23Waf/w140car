@@ -1,7 +1,11 @@
 .Body {
   height: auto;
   background-color: #EFC6B5;
-  padding: 30px;
+  
+}
+
+.columns {
+  padding-top: 30px;
 }
 
 .Lower-column {
@@ -11,8 +15,7 @@
 .App {
   /* text-align: center; */
   background-color: #61dafb;
-  padding: 30px;
-  
+ 
 }
 
 .App-logo {
@@ -45,19 +48,49 @@
   border-radius: 10px;
 }
 
-.Container {
-  padding-top: 100px;
-}
-
 .li-item {
   padding: 5px;
-  
+  border-radius: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-bottom: -5px;
+  position: abslute;
+  size: 10px;
+}
+
+.line {
+  padding-top: 60px;
 }
 
 .time {
   
   position: relative;
-  margin-left: 150px;
+  margin-left: 110px;
+}
+
+.Avatar {
+  margin-right: 10px;
+}
+
+/* .div1 {
+  background-color: teal;
+}
+
+.div2 {
+  background-color: violet;
+} */
+
+
+.camel {
+  float: left;
+}
+
+.search {
+  float: right;
+  
+  /* position: absolute; */
 
 }
 
