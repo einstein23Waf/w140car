@@ -1,5 +1,5 @@
 .Body {
-  height: auto;
+  height: 100vh;
   background-color: #EFC6B5;
   
 }
@@ -19,19 +19,10 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #ffffcc;
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: black;
 }
@@ -42,6 +33,13 @@
 
 .Card {
   border-radius: 10px;
+
+}
+
+.drivers-card{
+  border-radius: 10px;
+  max-height: 500px;
+  overflow-y: auto;
 }
 
 .li-item {
@@ -79,13 +77,10 @@
 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search1 {
+  float: left;
+  opacity: 0.3;
+
 }
 
 
@@ -138,4 +133,90 @@
 .lower-header {
   position: absolute;
   margin-top: 180px;
+}
+
+.Service-Card {
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.messages-card {
+  height: auto;
+  border-radius: 10px;
+  margin-left: -22px;
+}
+
+.contacts-card {
+  height: 500px;
+  border-radius: 10px;
+  overflow-y: auto;
+  
+ 
+  
+}
+
+.contacts-card ul li {
+  list-style-type: none;
+  
+  
+}
+
+
+.contacts-card heading {
+  opacity: 0.3;
+}
+
+.payments-card-div {
+  height: auto;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 5px;
+ 
+}
+
+.payments-card-div img {
+  height: 70px;
+  margin-top: -55px;
+  border-radius: 10px;
+  
+}
+
+.payments-card-div h5 {
+  margin-top: -30px;
+}
+
+.payments-card-div p {
+  margin-top: -35px;
+  float: right;
+}
+
+.lower-payments-div {
+  height: auto;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.lower-payments-div ul li {
+  display: inline;
+  list-style: none;
+
+  padding: 2px 20px 2px 5px;
+  
+  margin: 0 50px 0 0;
+}
+
+.lower-payments-div1 li {
+  display: inline;
+  list-style: none;
+
+  padding: 2px 20px 2px 5px;
+  
+  margin: 0 50px 0 0;
+}
+
+Tabs {
+  type:
 }

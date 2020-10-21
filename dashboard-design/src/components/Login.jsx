@@ -55,7 +55,7 @@ function Login () {
                                    <Button color="primary">LinkedIn</Button>
                                 </Columns.Column>
                                 <Columns.Column size={6}>
-                                   <Button color="primary">Apple</Button>
+                                   <Button color="primary">Twitter</Button>
                                 </Columns.Column>
                             </Columns>
                             

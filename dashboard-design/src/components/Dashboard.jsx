@@ -5,12 +5,11 @@ import './Login.css';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import Avatar from 'react-avatar';
 
-import { Button } from 'react-bulma-components';
+
 import { Columns } from 'react-bulma-components';
 import { Card } from 'react-bulma-components';
 import { Content } from 'react-bulma-components';
 import { Container } from 'react-bulma-components';
-import { RiDashboardLine } from "react-icons/ri";
 import { FaSistrix } from "react-icons/fa";
 import { GiCamel} from "react-icons/gi";
 import Sidemenu  from './Sidemenu';
@@ -62,7 +61,7 @@ function Dashboard () {
       <Card.Content>
         
         <Content>
-        <heading><b>Lead sales</b></heading>
+        <heading><b>Ongoing Service Request</b></heading>
           <hr></hr>
           {/* <a href="#1">#css</a> <a href="#2">#responsive</a> */}
           <br />
@@ -77,7 +76,7 @@ function Dashboard () {
       <Card.Content>
         
         <Content>
-          <heading><b>Activity</b></heading>
+          <heading><b>Wallet</b></heading>
           <hr></hr>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Phasellus nec iaculis mauris. <a>@bulmaio</a>.
@@ -95,7 +94,7 @@ function Dashboard () {
       <Card.Content>
         
         <Content>
-        <heading><b>Notifications</b></heading>
+        <heading><b>Service History</b></heading>
           <hr></hr>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Phasellus nec iaculis mauris. <a>@bulmaio</a>.
@@ -116,7 +115,7 @@ function Dashboard () {
       
       
       
-      <Card className='Card'>
+      <Card className='drivers-card'>
       
       <Card.Content>
 
@@ -124,8 +123,6 @@ function Dashboard () {
         <hr></hr>
       
       <ul onMouseOver={changeBackground} onMouseOut={changeBackgroundBack} >
-          <li className='li-item'><Avatar size="40" round="35px" name="carl" className='Avatar'/>Carl<time className='time' >11:09 PM</time></li>
-          <li className='li-item'><Avatar size="40" round="35px" name="carl" className='Avatar'/>Carl<time className='time' >11:09 PM</time></li>
           <li className='li-item'><Avatar size="40" round="35px" name="carl" className='Avatar'/>Carl<time className='time' >11:09 PM</time></li>
           <li className='li-item'><Avatar size="40" round="35px" name="carl" className='Avatar'/>Carl<time className='time' >11:09 PM</time></li>
           <li className='li-item'><Avatar size="40" round="35px" name="carl" className='Avatar'/>Carl<time className='time' >11:09 PM</time></li>

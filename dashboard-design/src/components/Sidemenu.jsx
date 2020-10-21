@@ -4,6 +4,7 @@ import './Login.css';
 import { Button } from 'react-bulma-components';
 import { RiDashboardLine } from "react-icons/ri";
 import { Card } from 'react-bulma-components';
+import { Link } from 'react-router-dom';
 
 
 function Sidemenu () {
@@ -25,14 +26,12 @@ function Sidemenu () {
           <hr></hr>
         
         <ul onMouseOver={changeBackground} onMouseOut={changeBackgroundBack} >
-            <li className='li-item'><RiDashboardLine className="icon"/>Dashboard</li>
-            <li className='li-item'><RiDashboardLine className="icon"/>User Profile</li>
-            <li className='li-item'><RiDashboardLine className="icon"/>Messages</li>
-            <li className='li-item'><RiDashboardLine className="icon"/>Payments</li>
-            <li className='li-item'><RiDashboardLine className="icon"/>Payments</li>
-            <li className='li-item'><RiDashboardLine className="icon"/>Payments</li>
-            <li className='li-item'><RiDashboardLine className="icon"/>Payments</li>
-            <li className='li-item'><RiDashboardLine className="icon"/>Payments</li>
+            <li className='li-item'><Link to="/dashboard"><RiDashboardLine className="icon"/>Dashboard</Link></li>
+            <li className='li-item'><Link to="/userprofile"><RiDashboardLine className="icon"/>My Profile</Link></li>
+            <li className='li-item'><Link to="/myservicehistory"><RiDashboardLine className="icon"/>My Service History</Link></li>
+            <li className='li-item'><Link to="/calendar"><RiDashboardLine className="icon"/>Calender</Link></li>
+            <li className='li-item'><Link to="/messages"><RiDashboardLine className="icon"/>Messages</Link></li>
+            <li className='li-item'><Link to="/payments"><RiDashboardLine className="icon"/>Payments</Link></li>
         </ul>
   
         <div className='line'>
