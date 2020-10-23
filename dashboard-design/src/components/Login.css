@@ -136,7 +136,7 @@
 }
 
 .Service-Card {
-  height: auto;
+  height:130px;
   border-radius: 10px;
 }
 
@@ -223,7 +223,7 @@
 }
 
 .Status-buttons Button {
-  margin-top: -63px;
+  margin-top: -70px;
   width: 120px;
   float: right;
 }
@@ -232,6 +232,18 @@
   
   display: grid;
   justify-self: start;
+}
+
+.Service-container {
+  margin-top: -35px;
+}
+
+.services-history-card {
+  height: 327px;
+  border-radius: 10px;
+  width: 1018px;
+  margin-left: -20px;
+  margin-top: -30px;
+  opacity: 0.3;
   
- 
 }

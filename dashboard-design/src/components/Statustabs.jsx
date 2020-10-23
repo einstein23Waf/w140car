@@ -19,9 +19,9 @@ function Statustabs () {
 
 
   
-    <div className='Container'>
+    <div className='Service-container'>
        <div className='status-p'>
-          <p>Carl</p>
+          <h5>Status:</h5>
        </div>
 
                   
@@ -33,16 +33,16 @@ function Statustabs () {
                               <Columns >
                               
                                  <Columns.Column size={3}>
-                                    <Button color="primary">Carl</Button>
+                                    <Button color="info">New</Button>
                                  </Columns.Column>
                                  <Columns.Column size={3}>
-                                    <Button color="primary">Carl</Button>
+                                    <Button color="warning">In progress</Button>
                                  </Columns.Column>
                                  <Columns.Column size={3}>
-                                    <Button color="primary">Carl</Button>
+                                    <Button color="danger">Cancelled</Button>
                                  </Columns.Column>
                                  <Columns.Column size={3}>
-                                    <Button color="primary">Carl</Button>
+                                    <Button color="primary">Completed</Button>
                                  </Columns.Column>
                               </Columns>
                         </Button.Group>
