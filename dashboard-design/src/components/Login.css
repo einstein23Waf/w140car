@@ -61,7 +61,7 @@
 .time {
   
   position: relative;
-  margin-left: 110px;
+  margin-left: 90px;
 }
 
 .Avatar {
@@ -217,6 +217,23 @@
   margin: 0 50px 0 0;
 }
 
-Tabs {
-  type:
+
+  
+  
+
+.Tabs {
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 40px;
 }
+
+.Tabs ul li {
+  list-style-type: none;
+  width: 100px;
+  display: inline-flex;
+  margin-top: 10px;
+  opacity: 0.3;
+  
+}
+
+

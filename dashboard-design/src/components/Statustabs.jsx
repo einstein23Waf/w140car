@@ -4,7 +4,8 @@ import React from 'react';
 import './Login.css';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 
-import { Tabs } from 'react-bulma-components';
+import { Tabs, Tab, AppBar } from '@material-ui/core';
+
 
 
 
@@ -16,19 +17,16 @@ function Statustabs () {
 
 
   
-    <div >
-         <Tabs.Tab active>
-            Test
-         </Tabs.Tab>
-        <Tabs.Tab>
-            Test
-        </Tabs.Tab>
-        <Tabs.Tab>
-            Test
-        </Tabs.Tab>
-        <Tabs.Tab>
-            Test
-        </Tabs.Tab>
+    <div className='Tabs'>
+      
+            <ul >
+              <li>Carl</li>
+              <li>Carl</li>
+              <li>Carl</li>
+              <li>Carl</li>
+
+            </ul>
+      
         
     </div>
   
