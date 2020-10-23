@@ -59,8 +59,10 @@ function Mysevicehistory () {
           <hr></hr>
           {/* <a href="#1">#css</a> <a href="#2">#responsive</a> */}
           <br />
+          <div>
+             <Statustabs/>
+          </div>
 
-          <Statustabs/>
           
           <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
         </Content>

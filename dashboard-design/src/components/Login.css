@@ -217,21 +217,21 @@
   margin: 0 50px 0 0;
 }
 
-
-  
-  
-
-.Tabs {
-    background-color: aliceblue;
-    border-radius: 10px;
-    height: 40px;
+.Status-buttons {
+  display: grid;
+  justify-content: right;
 }
 
-.Tabs ul li {
-  list-style-type: none;
-  width: 100px;
-  display: inline-flex;
-  margin-top: 10px;
+.Status-buttons Button {
+  margin-top: -63px;
+  width: 120px;
+  float: right;
 }
 
-
+.status-p {
+  
+  display: grid;
+  justify-self: start;
+  background-color: red;
+ 
+}

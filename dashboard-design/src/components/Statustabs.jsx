@@ -6,7 +6,7 @@ import 'react-bulma-components/dist/react-bulma-components.min.css';
 import { Button } from 'react-bulma-components';
 import { Columns } from 'react-bulma-components';
 
-import { Tabs, Tab, AppBar } from '@material-ui/core';
+
 
 
 
@@ -19,25 +19,36 @@ function Statustabs () {
 
 
   
-    <div >
+    <div className='Container'>
+       <div className='status-p'>
+          <p>Carl</p>
+       </div>
 
+                  
+                        
+                 
+         <div className='Status-buttons' >
+            
+                     <Button.Group>
+                              <Columns >
+                              
+                                 <Columns.Column size={3}>
+                                    <Button color="primary">Carl</Button>
+                                 </Columns.Column>
+                                 <Columns.Column size={3}>
+                                    <Button color="primary">Carl</Button>
+                                 </Columns.Column>
+                                 <Columns.Column size={3}>
+                                    <Button color="primary">Carl</Button>
+                                 </Columns.Column>
+                                 <Columns.Column size={3}>
+                                    <Button color="primary">Carl</Button>
+                                 </Columns.Column>
+                              </Columns>
+                        </Button.Group>
+         </div>
 
-                     
-                            <Columns>
-                                <Columns.Column size={4}>
-                                   <Button color="primary">Carl</Button>
-                                </Columns.Column>
-                                <Columns.Column size={4}>
-                                   <Button color="primary">Carl</Button>
-                                </Columns.Column>
-                                <Columns.Column size={4}>
-                                   <Button color="primary">Carl</Button>
-                                </Columns.Column>
-                                <Columns.Column size={4}>
-                                   <Button color="primary">Carl</Button>
-                                </Columns.Column>
-                            </Columns>
-                          </div>
+    </div>
   
 
     
