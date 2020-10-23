@@ -1,0 +1,222 @@
+.Body {
+  height: 100vh;
+  background-color: #EFC6B5;
+  
+}
+
+.columns {
+  padding-top: 30px;
+}
+
+.Lower-column {
+  padding-top: 20px;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffcc;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Card {
+  border-radius: 10px;
+
+}
+
+.drivers-card{
+  border-radius: 10px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.li-item {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-bottom: -5px;
+  position: abslute;
+  size: 10px;
+}
+
+.line {
+  padding-top: 60px;
+}
+
+.time {
+  
+  position: relative;
+  margin-left: 110px;
+}
+
+.Avatar {
+  margin-right: 10px;
+}
+
+.camel {
+  float: left;
+}
+
+.search {
+  float: right;
+
+}
+
+.search1 {
+  float: left;
+  opacity: 0.3;
+
+}
+
+
+.login-card {
+  
+  width: 500px;
+  height: 700px;
+}
+
+.login-div {
+ display: flex;
+ justify-content: center;
+ padding-top: 60px;
+ padding-bottom: 60px;
+ background-color: #EFC6B5;
+  
+}
+
+.login-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.form-div {
+  padding: 30px;
+
+}
+
+.Other-login-buttons {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: 45px;
+}
+
+.Other-login-buttons Button {
+  width: 120px;
+}
+
+.Button-icons {
+  margin-right: 5px;
+  
+}
+
+.Facebook-icon {
+  margin-right: 5px;
+}
+
+.lower-header {
+  position: absolute;
+  margin-top: 180px;
+}
+
+.Service-Card {
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.messages-card {
+  height: auto;
+  border-radius: 10px;
+  margin-left: -22px;
+}
+
+.contacts-card {
+  height: 500px;
+  border-radius: 10px;
+  overflow-y: auto;
+  
+ 
+  
+}
+
+.contacts-card ul li {
+  list-style-type: none;
+  
+  
+}
+
+
+.contacts-card heading {
+  opacity: 0.3;
+}
+
+.payments-card-div {
+  height: auto;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 5px;
+ 
+}
+
+.payments-card-div img {
+  height: 70px;
+  margin-top: -55px;
+  border-radius: 10px;
+  
+}
+
+.payments-card-div h5 {
+  margin-top: -30px;
+}
+
+.payments-card-div p {
+  margin-top: -35px;
+  float: right;
+}
+
+.lower-payments-div {
+  height: auto;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.lower-payments-div ul li {
+  display: inline;
+  list-style: none;
+
+  padding: 2px 20px 2px 5px;
+  
+  margin: 0 50px 0 0;
+}
+
+.lower-payments-div1 li {
+  display: inline;
+  list-style: none;
+
+  padding: 2px 20px 2px 5px;
+  
+  margin: 0 50px 0 0;
+}
+
+Tabs {
+  type:
+}
