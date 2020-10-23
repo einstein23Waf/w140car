@@ -56,8 +56,8 @@ function Messages () {
         <heading><FaSistrix className='search1' size='30px'/>Find contacts</heading>
           <hr></hr>
           <ul>
-            <li>Carl<time className='time' >11:09 PM</time></li>
-            <li>Carl<time className='time' >11:09 PM</time></li>
+          <li className='li-item'><Avatar size="40" round="35px" name="carl" className='Avatar'/>Carl<time className='time' >11:09 PM</time></li>
+          <li className='li-item'><Avatar size="40" round="35px" name="carl" className='Avatar'/>Carl<time className='time' >11:09 PM</time></li>
          </ul>
           
         </Content>
