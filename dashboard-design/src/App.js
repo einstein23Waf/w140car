@@ -7,6 +7,7 @@ import { Myservicehistory } from "./components";
 import { Calendar } from "./components";
 import { Messages } from "./components";
 import { Payments } from "./components";
+import { Newservices } from "./components";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/calendar" exact component={() => <Calendar />} />
           <Route path="/messages" exact component={() => <Messages />} />
           <Route path="/payments" exact component={() => <Payments />} />
+          <Route path="/new" exact component={() => <Newservices />} />
         </Switch>
         
       </Router>

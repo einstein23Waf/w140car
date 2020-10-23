@@ -11,6 +11,7 @@ import { FaSistrix } from "react-icons/fa";
 import { GiCamel} from "react-icons/gi";
 import Sidemenu  from './Sidemenu';
 import Statustabs  from './Statustabs';
+import Newservices  from './Newservices';
 
 
 function Mysevicehistory () {
@@ -66,7 +67,7 @@ function Mysevicehistory () {
           <Columns>
             <Columns.Column >
                     <Card className='services-history-card'>
-
+                         
                     </Card>
             </Columns.Column>
           </Columns>

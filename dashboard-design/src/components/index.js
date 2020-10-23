@@ -7,3 +7,4 @@ export { default as Calendar } from "./Calendar";
 export { default as Messages } from "./Messages";
 export { default as Payments } from "./Payments";
 export { default as Statustabs } from "./Statustabs";
+export { default as Newservices } from "./Newservices";

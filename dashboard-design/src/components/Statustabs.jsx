@@ -5,6 +5,7 @@ import './Login.css';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import { Button } from 'react-bulma-components';
 import { Columns } from 'react-bulma-components';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,7 +25,7 @@ function Statustabs () {
           <h5>Status:</h5>
        </div>
 
-                  
+      
                         
                  
          <div className='Status-buttons' >
@@ -33,7 +34,7 @@ function Statustabs () {
                               <Columns >
                               
                                  <Columns.Column size={3}>
-                                    <Button color="info">New</Button>
+                                        <Link to="/new"><Button color="info">New</Button></Link>
                                  </Columns.Column>
                                  <Columns.Column size={3}>
                                     <Button color="warning">In progress</Button>
