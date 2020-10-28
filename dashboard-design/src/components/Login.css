@@ -136,7 +136,7 @@
 }
 
 .Service-Card {
-  height:130px;
+  height:450px;
   border-radius: 10px;
 }
 
@@ -228,6 +228,11 @@
   float: right;
 }
 
+.Myservice-Card{
+  height: 130px;
+  border-radius: 10px;
+}
+
 .status-p {
   
   display: grid;
@@ -245,5 +250,27 @@
   margin-left: -23px;
   margin-top: -30px;
   opacity: 0.3;
+  
+}
+
+
+.Request-div {
+  display: flex;
+  margin: 0;
+  
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(140%);
+  grid-gap: 40px;
+  justify-content: center;
+  
+}
+
+.Request-card {
+  border-radius: 10px;
+  background-color: saddlebrown;
+  width: 90px;
+  height: 70px;
+
   
 }
