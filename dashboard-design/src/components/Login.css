@@ -309,7 +309,10 @@
 .loc-button Button {
  
   display: flex;
-  
-  
 }
 
+.Basic-Card {
+  height:500px;
+  border-radius: 10px;
+  overflow-y: auto;
+}

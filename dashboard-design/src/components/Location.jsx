@@ -69,7 +69,7 @@ function Location () {
                     <Form.Field>
                         <Form.Control>
                             <Form.Label>Pick-Up Location</Form.Label>
-                            <Form.Input name="name" value="select service category..." />
+                            <Form.Input name="name" value="Select pick-up location..." />
                         </Form.Control>
                     </Form.Field>
                 </Columns.Column>
@@ -77,13 +77,13 @@ function Location () {
                 <Form.Field>
                         <Form.Control>
                             <Form.Label>Destination</Form.Label>
-                            <Form.Input name="name" value="select service category..." />
+                            <Form.Input name="name" value="Drop-off location..." />
                         </Form.Control>
                     </Form.Field>
                 </Columns.Column>
                 <Columns.Column full className="loc-button">
                     <Button.Group>
-                        <Link to="location"><Button fullwidth  color="primary">Next</Button></Link>
+                        <Link to="basicrequest"><Button fullwidth  color="primary">Next</Button></Link>
                     </Button.Group> 
                 </Columns.Column>
           </Columns>

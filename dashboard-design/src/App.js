@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Dashboard } from "./components";
+import { Basicrequirements, Dashboard, Specificrequirements } from "./components";
 import { Login } from "./components";
 import { Userprofile } from "./components";
 import { Myservicehistory } from "./components";
@@ -29,6 +29,8 @@ function App() {
           <Route path="/new" exact component={() => <Newservices />} />
           <Route path="/requests" exact component={() => <Requests />} />
           <Route path="/location" exact component={() => <Location />} />
+          <Route path="/basicrequest" exact component={() => <Basicrequirements />} />
+          <Route path="/specificrequest" exact component={() => <Specificrequirements />} />
         </Switch>
         
       </Router>

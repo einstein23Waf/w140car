@@ -10,3 +10,5 @@ export { default as Statustabs } from "./Statustabs";
 export { default as Newservices } from "./Newservices";
 export { default as Requests } from "./Requests";
 export { default as Location } from "./Location";
+export { default as Basicrequirements } from "./Basicrequirements";
+export { default as Specificrequirements } from "./Specificrequirements";
