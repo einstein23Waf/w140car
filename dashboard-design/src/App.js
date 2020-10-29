@@ -8,6 +8,8 @@ import { Calendar } from "./components";
 import { Messages } from "./components";
 import { Payments } from "./components";
 import { Newservices } from "./components";
+import { Requests } from "./components";
+import { Location } from "./components";
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Route path="/messages" exact component={() => <Messages />} />
           <Route path="/payments" exact component={() => <Payments />} />
           <Route path="/new" exact component={() => <Newservices />} />
+          <Route path="/requests" exact component={() => <Requests />} />
+          <Route path="/location" exact component={() => <Location />} />
         </Switch>
         
       </Router>

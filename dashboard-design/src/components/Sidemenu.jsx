@@ -18,7 +18,7 @@ function Sidemenu () {
 
     return (
         <>
-        <Card className='Card'>
+        <Card className='Side-Card'>
       
         <Card.Content>
   

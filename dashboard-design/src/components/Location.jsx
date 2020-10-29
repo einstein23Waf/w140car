@@ -10,12 +10,15 @@ import { Content } from 'react-bulma-components';
 import { Container } from 'react-bulma-components';
 import { FaSistrix } from "react-icons/fa";
 import { GiCamel} from "react-icons/gi";
-import Sidemenu  from './Sidemenu'
+import Sidemenu  from './Sidemenu';
+import { Form } from 'react-bulma-components';
+
+import { Button } from 'react-bulma-components';
 import { Link } from 'react-router-dom';
 
 
 
-function Newservices () {
+function Location () {
 
 
   return (
@@ -54,55 +57,39 @@ function Newservices () {
       <Card.Content>
         
         <Content>
-        <heading><b>Create New Service Request</b></heading>
+        <heading><b>Select Your Location</b></heading>
           <hr></hr>
+          <Columns>
+                <Columns.Column size={12} className="Map-div" >
 
-
-          <div className='Request-div'>
-
-          <div className='request-divs'>
-      
-                <div className='Request-card'>
-               
-                  
-                </div>
-                <Link to="requests"><p>Transportation</p></Link>
-          </div>
+                </Columns.Column>
 
           
-
-          <div className='request-divs'>
-
-                <div className='Request-card'>
-
-                  
-                </div>
-                <p>Special Services</p>
-          </div>
-          
-
-          <div className='request-divs'>
-
-                <div className='Request-card'>
-
-                  
-                </div>
-                <p>Emergency</p>
-          </div>
-
-          
-
-          </div>
-
-         
+                <Columns.Column size={6} className="Pick-up">
+                    <Form.Field>
+                        <Form.Control>
+                            <Form.Label>Pick-Up Location</Form.Label>
+                            <Form.Input name="name" value="select service category..." />
+                        </Form.Control>
+                    </Form.Field>
+                </Columns.Column>
+                <Columns.Column size={6} className="Destination">
+                <Form.Field>
+                        <Form.Control>
+                            <Form.Label>Destination</Form.Label>
+                            <Form.Input name="name" value="select service category..." />
+                        </Form.Control>
+                    </Form.Field>
+                </Columns.Column>
+                <Columns.Column full className="loc-button">
+                    <Button.Group>
+                        <Link to="location"><Button fullwidth  color="primary">Next</Button></Link>
+                    </Button.Group> 
+                </Columns.Column>
+          </Columns>
 
 
 
-
-
-
-
-          
         </Content>
       </Card.Content>
     </Card>
@@ -121,4 +108,4 @@ function Newservices () {
 }
 
 
-export default Newservices;
+export default Location;

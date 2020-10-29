@@ -8,3 +8,5 @@ export { default as Messages } from "./Messages";
 export { default as Payments } from "./Payments";
 export { default as Statustabs } from "./Statustabs";
 export { default as Newservices } from "./Newservices";
+export { default as Requests } from "./Requests";
+export { default as Location } from "./Location";

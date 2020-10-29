@@ -17,23 +17,18 @@ function Login () {
             <div className="login-div">
                 <Card className ="login-card">
                 
-                    <h1 className="login-header"> Login </h1>
+                    <h1 className="login-header"><b>OTP Login</b></h1>
                     <br/>
 
                     <div className="form-div">
                     <Form.Field>
                         <Form.Control>
-                          <Form.Label>Name</Form.Label>
-                          <Form.Input name="name" value="name" />
+                          <Form.Label>Phone Number</Form.Label>
+                          <Form.Input name="name" value="enter number..." />
                         </Form.Control>
                     </Form.Field>
 
-                    <Form.Field>
-                        <Form.Control>
-                            <Form.Label>Password</Form.Label>
-                            <Form.Input name="password" type="password" value="password"/>
-                        </Form.Control>
-                    </Form.Field>
+                   
 
                     <Button.Group>
                         <Button fullwidth  color="primary">Login</Button>
