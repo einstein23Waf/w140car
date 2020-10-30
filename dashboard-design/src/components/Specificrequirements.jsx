@@ -62,7 +62,8 @@ function Specificrequirements () {
                     <Form.Field>
                         <Form.Control>
                             <Form.Label>Do you need Insurance?</Form.Label>
-                            <Form.Radio name="name" label="yes" />
+                            <Form.Radio type="radio" value="Yes..." /> Yes
+                            <Form.Radio type="radio" value="NO..." /> No
                         </Form.Control>
                     </Form.Field>
                      
@@ -72,7 +73,7 @@ function Specificrequirements () {
                      <Columns.Column size={6}>
                             <Form.Field>
                                 <Form.Control>
-                                    <Form.Label>Estimate Measure</Form.Label>
+                                    <Form.Label>Declare Value of Goods</Form.Label>
                                     <Form.Input name="name" value="Goods Value..." />
                                 </Form.Control>
                             </Form.Field>
@@ -81,7 +82,7 @@ function Specificrequirements () {
                         <Columns.Column size={6} >
                             <Form.Field>
                                 <Form.Control>
-                                    <Form.Label>Payment Mode?</Form.Label>
+                                    <Form.Label>Goods Description</Form.Label>
                                     <Form.Input name="name" value="Goods Value..." />
                                 </Form.Control>
                             </Form.Field>
@@ -92,34 +93,16 @@ function Specificrequirements () {
 
                     <Form.Field>
                         <Form.Control>
-                            <Form.Label>Requirements?</Form.Label>
-                            <Form.Input name="name" value="Goods Value..." />
+                            <Form.Label>Have Goods In Transit Insurance?</Form.Label>
+                            <Form.Radio type="radio" value="Yes..." /> Yes
+                            <Form.Radio type="radio" value="NO..." /> No
+                            <Form.Input name="name" value="Goods in transit insurance number..." />
                         </Form.Control>
                     </Form.Field>
 
-                    <Form.Field>
-                        <Form.Control>
-                            <Form.Label>Additional info?</Form.Label>
-                            <Form.Input name="name" value="Goods Value..." />
-                        </Form.Control>
-                    </Form.Field>
-
-                    <Form.Field>
-                        <Form.Control>
-                            <Form.Label>Start date and Time</Form.Label>
-                            <Form.Input name="name" value="Goods Value..." />
-                        </Form.Control>
-                    </Form.Field>
-
-                    <Form.Field>
-                        <Form.Control>
-                            <Form.Label>Payment Mode?</Form.Label>
-                            <Form.Input name="name" value="Goods Value..." />
-                        </Form.Control>
-                    </Form.Field>
 
                     <Button.Group>
-                        <Link to="basicrequest"><Button fullwidth  color="primary">Next</Button></Link>
+                        <Link to="#"><Button fullwidth  color="primary">Next</Button></Link>
                     </Button.Group> 
 
 
