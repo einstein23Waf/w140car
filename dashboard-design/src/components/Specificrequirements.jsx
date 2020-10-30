@@ -67,29 +67,21 @@ function Specificrequirements () {
                         </Form.Control>
                     </Form.Field>
                      
-                     
+                    <Form.Field>
+                        <Form.Control>
+                            <Form.Label>Declare value of Goods?</Form.Label>
+                            <Form.Input name="name" value="Goods in transit insurance number..." />
+                        </Form.Control>
+                    </Form.Field>
 
-                    <Columns >
-                     <Columns.Column size={6}>
-                            <Form.Field>
-                                <Form.Control>
-                                    <Form.Label>Declare Value of Goods</Form.Label>
-                                    <Form.Input name="name" value="Goods Value..." />
-                                </Form.Control>
-                            </Form.Field>
-                        </Columns.Column>
+                    <Form.Field>
+                        <Form.Control>
+                            <Form.Label>Goods Description</Form.Label>
+                            <Form.Input name="name" value="Goods in transit insurance number..." />
+                        </Form.Control>
+                    </Form.Field>
 
-                        <Columns.Column size={6} >
-                            <Form.Field>
-                                <Form.Control>
-                                    <Form.Label>Goods Description</Form.Label>
-                                    <Form.Input name="name" value="Goods Value..." />
-                                </Form.Control>
-                            </Form.Field>
-                        </Columns.Column>
-
-
-                    </Columns>
+             
 
                     <Form.Field>
                         <Form.Control>

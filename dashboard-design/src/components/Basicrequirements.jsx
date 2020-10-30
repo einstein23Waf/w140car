@@ -73,15 +73,16 @@ function Basicrequirements () {
                             <Form.Field>
                                 <Form.Control>
                                     <Form.Label>Estimate Measure</Form.Label>
+                                    <Form.Label>Numerical Unit</Form.Label>
                                     <Form.Input name="name" value="Goods Value..." />
                                 </Form.Control>
                             </Form.Field>
                         </Columns.Column>
 
-                        <Columns.Column size={6} >
+                        <Columns.Column size={6} className="measure-right">
                             <Form.Field>
                                 <Form.Control>
-                                    <Form.Label>Payment Mode?</Form.Label>
+                                    <Form.Label>Unit Measurement</Form.Label>
                                     <Form.Input name="name" value="Goods Value..." />
                                 </Form.Control>
                             </Form.Field>
@@ -104,17 +105,55 @@ function Basicrequirements () {
                         </Form.Control>
                     </Form.Field>
 
-                    <Form.Field>
-                        <Form.Control>
-                            <Form.Label>Start date and Time</Form.Label>
-                            <Form.Input name="name" value="Goods Value..." />
-                        </Form.Control>
-                    </Form.Field>
+                    <Columns >
+                     <Columns.Column size={6}>
+                            <Form.Field>
+                                <Form.Control>
+                                    <Form.Label>Select Start Date and Time</Form.Label>
+                                    <Form.Label>Start Date</Form.Label>
+                                    <Form.Input name="name" value="Goods Value..." />
+                                </Form.Control>
+                            </Form.Field>
+
+                            <Button.Group>
+                                <Link to="#"><Button fullwidth  color="primary">Next</Button></Link>
+                            </Button.Group> 
+
+
+                        </Columns.Column>
+
+                        <Columns.Column size={6} className="measure-right">
+                            <Form.Field>
+                                <Form.Control>
+                                    <Form.Label>Start Time</Form.Label>
+                                    <Form.Input name="name" value="Goods Value..." />
+                                </Form.Control>
+                            </Form.Field>
+
+                            
+                            <Button.Group>
+                                <Link to="#"><Button fullwidth  color="primary">Next</Button></Link>
+                            </Button.Group> 
+
+                        </Columns.Column>
+
+
+                    </Columns>
 
                     <Form.Field>
                         <Form.Control>
                             <Form.Label>Payment Mode?</Form.Label>
                             <Form.Input name="name" value="Goods Value..." />
+                        </Form.Control>
+                    </Form.Field>
+
+                    
+                    <Form.Field>
+                        <Form.Control>
+                            <Form.Label>Service Priority Level?</Form.Label>
+                            <Form.Radio type="radio" value="High..." /> High
+                            <Form.Radio type="radio" value="Medium..." /> Medium
+                            <Form.Radio type="radio" value="Low..." /> Low
                         </Form.Control>
                     </Form.Field>
 

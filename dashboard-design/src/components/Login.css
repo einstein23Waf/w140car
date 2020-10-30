@@ -316,3 +316,9 @@
   border-radius: 10px;
   overflow-y: auto;
 }
+
+.measure-right {
+  position: relative;
+  margin-top: 32px;
+  float: left;
+}
