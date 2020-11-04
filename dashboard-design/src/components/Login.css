@@ -322,3 +322,48 @@
   margin-top: 32px;
   float: left;
 }
+
+.cover-div {
+  border-radius: 10px;
+  height: 150px;
+  background-color: thistle;
+}
+
+.cover-div p {
+  float: right;
+  margin-right: 10px;
+}
+
+.user-avatar {
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.h-line {
+  display: block; 
+  margin-before: 0.5em;
+  margin-after: 0.5em; 
+  margin-start: auto; 
+  margin-end: auto; 
+  overflow: hidden; 
+  border-style: inset; 
+  border-width: 1px;
+  margin-bottom: 0;
+  
+}
+
+.email{
+  float: right;
+  margin-right: 450px;
+}
+
+.phone{
+  float: right;
+  margin-right: 450px;
+
+}
+
+.user-info-div {
+  position: absolute;
+  margin-top: -40px;
+}
