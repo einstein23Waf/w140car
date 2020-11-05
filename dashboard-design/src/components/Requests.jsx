@@ -19,6 +19,9 @@ import {Dropdown} from 'react-bulma-components';
 import { Link } from 'react-router-dom';
 
 
+import TextField from '@material-ui/core/TextField';
+
+
 
 function Requests () {
 
@@ -64,12 +67,18 @@ function Requests () {
 
 
           <div className="form-div">
-                   <Form.Field>
-                        <Form.Control>
-                            <Form.Label>Select Service Category</Form.Label>
-                            <Form.Input name="name" value="select service category..." />
-                        </Form.Control>
-                    </Form.Field>
+
+          <form  noValidate autoComplete="off">
+  
+           
+            <TextField className="input-field" id="outlined-basic" label="Select Service Category" variant="outlined" />
+
+            
+          </form>
+          
+
+
+
 
                     <Form.Field>
                         <Form.Control>

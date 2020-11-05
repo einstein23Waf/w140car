@@ -7,6 +7,7 @@ import { Card } from 'react-bulma-components';
 import { Form } from 'react-bulma-components';
 import { FcGoogle } from "react-icons/fc";
 import { ImFacebook2 } from "react-icons/im"
+import TextField from '@material-ui/core/TextField';
 
 function Login () {
 
@@ -21,14 +22,13 @@ function Login () {
                     <br/>
 
                     <div className="form-div">
-                    <Form.Field>
-                        <Form.Control>
-                          <Form.Label>Phone Number</Form.Label>
-                          <Form.Input name="name" value="enter number..." />
-                        </Form.Control>
-                    </Form.Field>
 
-                   
+
+                    <form  noValidate autoComplete="off">
+  
+                        <TextField className="input-field" id="outlined-basic" label="Enter Phone Number" variant="outlined" />
+                    </form>
+                
 
                     <Button.Group>
                         <Button fullwidth  color="primary">Login</Button>
